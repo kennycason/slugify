@@ -3,6 +3,8 @@ Slugify
 
 Configurable, UX Friendly, Not Sluggish, Slug Generator
 
+[![Build Status](http://40.143.203.5:81/api/badge/github.com/kennycason/slugify/status.svg?branch=master)](http://40.143.203.5:81/github.com/kennycason/slugify)
+
 **Realistic Examples (With default configuration)**
 
 | Text     | Slug  |
