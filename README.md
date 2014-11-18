@@ -12,6 +12,7 @@ Configurable, UX Friendly, Not Sluggish, Slug Generator
 | $slug    | cash-slug |
 | m&m      | m-and-m |
 | @データランク | at-データランク |
+| ΔΔΔ      | delta-delta-delta |
 
 
 **Crazy Ridiculous Examples (With default configuration)**
