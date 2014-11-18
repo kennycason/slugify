@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by kenny on 11/18/14.
+ *
+ * 5% -> 5-percent
  */
 public class PercentCleaner implements Cleaner {
     private static final Pattern PERCENT_PATTERN = Pattern.compile("%");

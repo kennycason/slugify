@@ -13,20 +13,17 @@ public class Configuration {
 
     private boolean toUpperCase = false;
 
-    // @datarank -> at-datarank
     private boolean atToText = true;
 
-    // #datarank -> hashtag-datarank
     private boolean hashtagToText = true;
 
-    // $data -> cash-data
     private boolean cashtagToText = true;
 
-    // m&m -> m-and-m
     private boolean ampersandToText = true;
 
-    // 5% -> 5-percent
     private boolean percentToText = true;
+
+    private boolean greekToText = true;
 
     public boolean isPreserveCase() {
         return preserveCase;
@@ -98,4 +95,11 @@ public class Configuration {
         this.percentToText = percentToText;
     }
 
+    public boolean isGreekToText() {
+        return greekToText;
+    }
+
+    public void setGreekToText(boolean greekToText) {
+        this.greekToText = greekToText;
+    }
 }

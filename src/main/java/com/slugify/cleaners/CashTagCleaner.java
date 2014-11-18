@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by kenny on 11/18/14.
+ *
+ * $data -> cash-data
  */
 public class CashTagCleaner implements Cleaner {
     private static final Pattern CASHTAG_PATTERN = Pattern.compile("\\$");

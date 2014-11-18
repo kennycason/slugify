@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by kenny on 11/18/14.
+ *
+ * @datarank -> at-datarank
  */
 public class AtSymbolCleaner implements Cleaner {
     private static final Pattern AT_PATTERN = Pattern.compile("@");

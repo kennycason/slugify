@@ -5,6 +5,7 @@ import com.slugify.cleaners.AtSymbolCleaner;
 import com.slugify.cleaners.CaseCleaner;
 import com.slugify.cleaners.CashTagCleaner;
 import com.slugify.cleaners.Cleaner;
+import com.slugify.cleaners.GreekLetterCleaner;
 import com.slugify.cleaners.HashTagCleaner;
 import com.slugify.cleaners.PercentCleaner;
 import com.slugify.cleaners.TrimCleaner;
@@ -25,6 +26,7 @@ public class Slugify {
             new AtSymbolCleaner(),
             new CashTagCleaner(),
             new PercentCleaner(),
+            new GreekLetterCleaner(),
             new CaseCleaner(),
             new UglyCharacterCleaner(),
             new TrimCleaner()

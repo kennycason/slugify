@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by kenny on 11/18/14.
+ *
+ * m&m -> m-and-m
  */
 public class AmpersandCleaner implements Cleaner {
     private static final Pattern AMPERSAND_PATTERN = Pattern.compile("&");

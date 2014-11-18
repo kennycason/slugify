@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by kenny on 11/18/14.
+ *
+ * #datarank -> hashtag-datarank
  */
 public class HashTagCleaner implements Cleaner {
     private static final Pattern HASHTAG_PATTERN = Pattern.compile("#");
