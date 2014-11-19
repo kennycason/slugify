@@ -9,7 +9,7 @@ public class UglyCharacterCleaner implements Cleaner {
     @Override
     public String apply(String text, Configuration configuration) {
         return text
-                .replaceAll("[(*|\\\\/:\\\"<>\\?!) '-]+", "-")  // remove ugly characters as a group
-                .replaceAll("!\\p{L}", "-");                    // match all non Letters, handle latin/asian characters alike
+                .replaceAll("[(?!\")\\p{Punct}|\\\\ \\-]+", "-")    // remove punctuation
+                .replaceAll("!\\p{L}", "-");            // match all non Letters, handle latin/asian characters alike
     }
 }
