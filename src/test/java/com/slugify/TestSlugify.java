@@ -29,6 +29,7 @@ public class TestSlugify {
         assertEquals("任天堂", slugify.slugify("---任天堂---"));
         assertEquals("double-dash", slugify.slugify("double--dash"));
         assertEquals("hashtag-food-at-hashtag-cash-percent-and", slugify.slugify("---#food!@#$%&*()---"));
+        assertEquals("comma", slugify.slugify("comma,"));
     }
 
     @Test
